@@ -75,6 +75,6 @@ class EnginePartsRecognition:
 # Example usage:
 if __name__ == "__main__":
     video_file = "parts.mp4"  # Use webcam if empty
-    api_key = "AIzaSyACFFbU_FuHdRq0hEtQgJzhCmwJ7b0Nubk"  # Replace with your actual API key
+    api_key = ""  # Replace with your actual API key
     processor = EnginePartsRecognition(video_file, api_key)
     processor.start_processing()
